@@ -1,0 +1,801 @@
+body{
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+header{
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #e7e9fc;
+  display: block;
+  position: relative;
+  width: 1440px;
+  height: 72px;
+  background-color: #ffffff;
+}
+
+.logo{
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5 ;
+
+}
+.logo span{
+color: #2E2F42;
+
+}
+
+.mail {
+  border: 1px solid #ffffff;
+  position: absolute;
+  width: 153px;
+  height: 24px;
+  top: 24px;
+  left: 940px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.phone {
+  border: 1px solid #ffffff;
+  position: absolute;
+  width: 151px;
+  height: 24px;
+  top: 24px;
+  left: 1133px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: .434455;
+}
+.toplineaddress {
+  font-style: normal;
+}
+
+h1 {
+  border: 1px solid #2e2f42;
+  background-color: #2e2f42;
+  position: relative;
+  width: 1440px;
+  height: 600px;
+  top: -21px;
+  overflow: hidden;
+}
+
+.motto {
+  border: 10px solid #2e2f42;
+  display: block;
+  position: absolute;
+  width: 496px;
+  height: 120px;
+  top: 158px;
+  left: 472px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  top: 428px;
+  margin-left: 636px;
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.section1 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: absolute;
+  width: 1128px;
+  height: 104px;
+  top: 792px;
+  left: 156px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.feature1h {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  left: -41px;
+  top: -22px;
+  width: 264px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.feature1p {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  left: -41px;
+  top: -34px;
+  width: 264px;
+  height: 72px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.feature2h {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  left: 246px;
+  top: -157px;
+  width: 262px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.feature2p {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  left: 246px;
+  top: -170px;
+  width: 262px;
+  height: 72px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.feature3h {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  left: 533px;
+  top: -293px;
+  width: 264px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.feature3p {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 264px;
+  height: 72px;
+  left: 533px;
+  top: -306px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.feature4h {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  left: 823px;
+  top: -429px;
+  width: 264px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.feature4p {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  left: 823px;
+  top: -442px;
+  width: 264px;
+  height: 72px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.section2 {
+  border: 1px solid #f4f4fd;
+  position: absolute;
+  display: block;
+  width: 1440px;
+  height: 732px;
+  top: 1016px;
+  background-color: #f4f4fd;
+}
+
+.sectionh {
+  border: 1px solid #f4f4fd;
+  position: relative;
+  display: block;
+  width: 165px;
+  height: 40px;
+  margin-top: 122px;
+  left: 639px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+  background-color: #f4f4fd;
+}
+
+.teamcard1 {
+  border: 1px solid #f4f4fd;
+  position: relative;
+  width: 266px;
+  height: 360px;
+  top: 49px;
+  left: 65px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px #2e2f42;
+}
+
+.teamcard1i {
+  width: 264px;
+  height: 260px;
+}
+
+.teamcard1n {
+  border: 1px solid #ffffff;
+  position: relative;
+  top: 15px;
+  width: 264px;
+  height: 24px;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #2e2f42;
+  margin: 0px;
+}
+
+.teamcard1p {
+  border: 1px solid #ffffff;
+  position: relative;
+  top: 25px;
+  width: 264px;
+  height: 24px;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #434455;
+  margin: 0px;
+}
+
+.teamcard2 {
+  border: 1px solid #f4f4fd;
+  position: relative;
+  width: 266px;
+  height: 360px;
+  top: -312px;
+  left: 376px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px #2e2f42;
+}
+
+.teamcard2i {
+  width: 264px;
+  height: 260px;
+}
+
+.teamcard2n {
+  border: 1px solid #ffffff;
+  position: relative;
+  top: 15px;
+  width: 264px;
+  height: 24px;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #2e2f42;
+  margin: 0px;
+}
+
+.teamcard2p {
+  border: 1px solid #ffffff;
+  position: relative;
+  top: 25px;
+  width: 264px;
+  height: 24px;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #434455;
+  margin: 0px;
+}
+
+.teamcard3 {
+  border: 1px solid #f4f4fd;
+  position: relative;
+  width: 266px;
+  height: 360px;
+  top: -672px;
+  left: 685px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px #2e2f42;
+}
+
+.teamcard3i {
+  width: 264px;
+  height: 260px;
+}
+
+.teamcard3n {
+  border: 1px solid #ffffff;
+  position: relative;
+  top: 15px;
+  width: 264px;
+  height: 24px;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #2e2f42;
+  margin: 0px;
+}
+
+.teamcard3p {
+  border: 1px solid #ffffff;
+  position: relative;
+  top: 25px;
+  width: 264px;
+  height: 24px;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #434455;
+  margin: 0px;
+}
+
+.teamcard4 {
+  border: 1px solid #f4f4fd;
+  position: relative;
+  width: 266px;
+  height: 360px;
+  top: -1033px;
+  left: 995px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px #2e2f42;
+}
+
+.teamcard4i {
+  width: 264px;
+  height: 260px;
+}
+
+.teamcard4n {
+  border: 1px solid #ffffff;
+  position: relative;
+  top: 15px;
+  width: 264px;
+  height: 24px;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #2e2f42;
+  margin: 0px;
+}
+
+.teamcard4p {
+  border: 1px solid #ffffff;
+  position: relative;
+  top: 25px;
+  width: 264px;
+  height: 24px;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #434455;
+  margin: 0px;
+}
+
+.section3 {
+  border: 1px solid #ffffff;
+  position: relative;
+  width: 1128px;
+  height: 1000px;
+  top: 1115px;
+  left: 156px;
+}
+
+.section3h {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 218px;
+  height: 40px;
+  top: -21px;
+  left: 459px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #2e2f42;
+}
+.row1 {
+  border: 1px solid #ffffff;
+  position: relative;
+  width: 1128px;
+  height: 420px;
+  top: 40px;
+  left: -1px;
+}
+.row2 {
+  border: 1px solid #ffffff;
+  position: relative;
+  width: 1128px;
+  height: 420px;
+  top: 80px;
+  left: -1px;
+}
+
+.projectcard1 {
+  border: 1px solid #e7e9fc;
+  position: relative;
+  width: 362px;
+  height: 420px;
+  top: -17px;
+  left: -41px;
+}
+
+.projectcardh1 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+  text-indent: 12px;
+}
+
+.projectcardp1 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  text-indent: 12px;
+}
+
+.projectcard2 {
+  border: 1px solid #e7e9fc;
+  position: relative;
+  width: 361px;
+  height: 420px;
+  top: -437px;
+  left: 345px;
+}
+
+.projectcardh2 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+  text-indent: 12px;
+}
+
+.projectcardp2 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 75px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  text-indent: 12px;
+}
+
+.projectcard3 {
+  border: 1px solid #e7e9fc;
+  position: relative;
+  width: 361px;
+  height: 420px;
+  top: -857px;
+  left: 727px;
+}
+
+.projectcardh3 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+  text-indent: 12px;
+}
+
+.projectcardp3 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  text-indent: 12px;
+}
+
+.projectcard4 {
+  border: 1px solid #e7e9fc;
+  position: relative;
+  width: 361px;
+  height: 420px;
+  top: -19px;
+  left: -42px;
+}
+
+.projectcardh4 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+  text-indent: 12px;
+}
+
+.projectcardp4 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  text-indent: 12px;
+}
+
+.projectcard5 {
+  border: 1px solid #e7e9fc;
+  position: relative;
+  width: 363px;
+  height: 420px;
+  top: -439px;
+  left: 343px;
+}
+
+.projectcardh5 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+  text-indent: 12px;
+}
+
+.projectcardp5 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  text-indent: 12px;
+}
+
+.projectcard6 {
+  border: 1px solid #e7e9fc;
+  position: relative;
+  width: 361px;
+  height: 420px;
+  top: -859px;
+  left: 727px;
+}
+
+.projectcardh6 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+  text-indent: 12px;
+}
+
+.projectcardp6 {
+  border: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  text-indent: 12px;
+}
+
+footer {
+  border: 1px solid #2E2F42;
+  position: relative;
+  width: 1440px;
+  height: 312px;
+  top: 1220px;
+  background-color: #2e2f42;
+}
+.footerlogo {
+  border: 1px solid #2e2f42;
+  display: ruby;
+  position: relative;
+  width: 15px;
+  left: -56px;
+  top: -21px;
+}
+.footerweb {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4d5ae5;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+  margin-top: 24px;
+  margin-left: 156px;
+}
+.footerstudio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f4f4fd;
+  display: inline;
+}
+
+.footerp {
+  border: 1px solid #2e2f42;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 264px;
+  height: 72px;
+  top: 88px;
+  left: -171px;
+  color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
