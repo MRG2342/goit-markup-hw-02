@@ -170,7 +170,8 @@ ul {
 
 .section-two .features{
   position: absolute;
-  display: block;
+  display: flex;
+  gap: 24px;
   padding: 0%;
   margin: 0%;
   width: 1128px;
@@ -179,7 +180,7 @@ ul {
   left: 156px;
 }
 
-.section-two .features li .feature-one-h {
+.section-two .features li .feature-h {
   border: 1px solid #ffffff;
   display: block;
   position: relative;
@@ -194,111 +195,15 @@ ul {
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
-.section-two .features li .feature-one-p {
+.section-two .features li .feature-p {
   border: 1px solid #ffffff;
   display: block;
   position: relative;
   left: -41px;
   top: -34px;
-  width: 264px;
-  height: 72px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.section-two .features li .feature-two-h {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  left: 246px;
-  top: -157px;
-  width: 262px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-}
-
-.section-two .features li .feature-two-p {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  left: 246px;
-  top: -170px;
-  width: 262px;
-  height: 72px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.section-two .features li .feature-three-h {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  left: 533px;
-  top: -293px;
-  width: 264px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-}
-
-.section-two .features li .feature-three-p {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
   width: 270px;
   height: 72px;
-  left: 533px;
-  top: -306px;
- font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.section-two .features li .feature-four-h {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  left: 823px;
-  top: -429px;
-  width: 264px;
-  height: 24px;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-}
-
-.section-two .features li .feature-four-p {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  left: 823px;
-  top: -442px;
-  width: 264px;
-  height: 72px;
- font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
