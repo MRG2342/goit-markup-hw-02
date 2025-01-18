@@ -24,6 +24,7 @@ nav .logo{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5 ;
+  text-decoration: none;
 }
 
 .logo span{
@@ -35,6 +36,7 @@ header ul li .nav-list{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  text-decoration: none;
 
 }
 
