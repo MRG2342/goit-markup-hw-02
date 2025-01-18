@@ -16,7 +16,7 @@ header{
 
 }
 
-nav a .logo{
+nav .logo{
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -28,40 +28,70 @@ nav a .logo{
 
 .logo span{
 color: #2E2F42;
+}
+
+header ul li .nav-list{
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
 
 }
 
-.mail {
-  border: 1px solid #ffffff;
+ul li .nav-list:hover{
+  color: #404bbf;
+}
+
+
+
+header address ul li .mail-address {
+  border: 1px solid red;
   position: absolute;
+  display: flex;
   width: 153px;
-  height: 24px;
-  top: 24px;
-  left: 940px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: #434455;
-}
-
-.phone {
-  border: 1px solid #ffffff;
-  position: absolute;
-  width: 151px;
   height: 24px;
   top: 24px;
   left: 1133px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: .434455;
-}
-.toplineaddress {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
   font-style: normal;
+}
+
+header address ul li .mail-address:hover{
+  color: #404bbf;
+}
+
+header address ul li .mail-address:focus{
+  color: #404bbf;
+}
+
+header address ul li .phone-number {
+  border: 1px solid red;
+  position: absolute;
+  display: flex;
+  width: 160px;
+  height: 24px;
+  top: 24px;
+  left: 1296px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+
+header address ul li .phone-number:hover{
+  color: #404bbf;
+}
+
+header address ul li .phone-number:focus{
+   color: #404bbf;
 }
 
 h1 {
