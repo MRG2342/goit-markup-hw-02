@@ -5,8 +5,8 @@ body{
 }
 
 header{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   border-bottom: 1px solid #e7e9fc;
   display: block;
   position: relative;
@@ -16,7 +16,7 @@ header{
 
 }
 
-nav .logo{
+.logo{
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -25,10 +25,28 @@ nav .logo{
   text-transform: uppercase;
   color: #4d5ae5 ;
   text-decoration: none;
+  position: relative;
+  display: flex;
+  width: 115px;
+  height: 24px;
+  top: 24px;
+  left: 156px;
+
 }
 
 .logo span{
 color: #2E2F42;
+}
+
+header ul {
+  position: absolute;
+  display: flex;
+  width: 261px;
+  height: 24px;
+  gap: 40px;
+  top: 4px;
+  left: 347px;
+  padding: 0%;
 }
 
 header ul li .nav-list{
@@ -49,17 +67,26 @@ ul li .nav-list:focus{
 }
 
 header .informations{
+  position: relative;
 font-style: normal;
+top: -10px;
 }
 
+header .informations ul{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  top: 0px;
+  width: 500px;
+  height: 24px;
+  left: 940px;
+  gap: 200px;
+}
 
-header address ul li .mail-address {
+header .informations ul li .info {
   position: absolute;
   display: flex;
-  width: 153px;
-  height: 24px;
-  top: 24px;
-  left: 1133px;
+  
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -70,37 +97,15 @@ header address ul li .mail-address {
   
 }
 
-header address ul li .mail-address:hover{
+header address ul li .info:hover{
   color: #404bbf;
 }
 
-header address ul li .mail-address:focus{
+header address ul li .info:focus{
   color: #404bbf;
 }
 
-header address ul li .phone-number {
-  position: absolute;
-  display: flex;
-  width: 160px;
-  height: 24px;
-  top: 24px;
-  left: 1296px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
 
-header address ul li .phone-number:hover{
-  color: #404bbf;
-}
-
-header address ul li .phone-number:focus{
-   color: #404bbf;
-}
 
 .section-one {
   border: 1px solid #ffffff;
@@ -212,7 +217,7 @@ ul {
 }
 
 .section-three {
-  border: 1px solid red;
+  border: 1px solid #f4f4fd;
   position: absolute;
   display: block;
   width: 1440px;
@@ -225,7 +230,7 @@ ul {
   border: 1px solid #f4f4fd;
   position: relative;
   display: flex;
-  width: 170px;
+  width: 180px;
   height: 40px;
   margin-top: 122px;
   left: 639px;
@@ -243,6 +248,7 @@ ul {
 .section-three .teamcards{
   display: flex;
   position: relative;
+  left: 88px ;
   gap:24px ;
   padding: 0%;
   margin: 0%;
@@ -311,7 +317,7 @@ border: 1px solid #f4f4fd;
   border: 1px solid #ffffff;
   display: block;
   position: relative;
-  width: 225px;
+  width: 230px;
   height: 40px;
   top: -21px;
   left: 459px;
@@ -371,7 +377,9 @@ border: 1px solid #f4f4fd;
   text-indent: 12px;
 }
 
-footer {
+.section-last{
+  margin: 0%;
+  padding: 0%;
   border: 1px solid #2E2F42;
   position: absolute;
   width: 1440px;
@@ -379,47 +387,48 @@ footer {
   top: 2988px;
   background-color: #2e2f42;
 }
-.footerlogo {
-  border: 1px solid #2e2f42;
-  display: ruby;
+
+.section-last .logo{
+  margin: 0%;
+  padding: 0%;
   position: relative;
-  width: 15px;
-  left: -56px;
-  top: -21px;
-}
-.footerweb {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  color: #4d5ae5;
-  display: inline-block;
-  width: 44px;
+  display: flex;
+  font-family: Raleway, sans-serif;
+  width: 115px;
   height: 24px;
-  margin-top: 24px;
-  margin-left: 156px;
-}
-.footerstudio {
-  font-family: "Raleway", sans-serif;
+  left: 156px;
+  top: 100px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  color: #f4f4fd;
-  display: inline;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5 ;
+  text-decoration: none;
 }
 
-.footerp {
+.section-last .logo-studio{
+  color: #2E2F42;
+  color: #F4F4FD;
+
+}
+
+
+.section-last .footer-p {
+  margin: 0%;
+  padding: 0%;
   border: 1px solid #2e2f42;
-  display: inline-block;
+  display: flex;
   position: relative;
   overflow: hidden;
   width: 264px;
   height: 72px;
-  top: 88px;
-  left: -171px;
+  top: 110px;
+  left: 156px;
   color: #f4f4fd;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
