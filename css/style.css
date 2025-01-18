@@ -102,7 +102,7 @@ header address ul li .phone-number:focus{
    color: #404bbf;
 }
 
-.section1 {
+.section-one {
   border: 1px solid #ffffff;
   background-color: #2E2F42;
   display: block;
@@ -115,7 +115,7 @@ header address ul li .phone-number:focus{
   padding: 0%;
 }
 
-.section1 .motto {
+.section-one .motto {
   margin: 0%;
   padding: 0%;
   background-color: #2e2f42;
@@ -133,7 +133,7 @@ header address ul li .phone-number:focus{
   color: #ffffff;
 }
 
-.section1 .button {
+.section-one .button {
   margin: 0%;
   display: flex;
   position: relative;
@@ -154,12 +154,13 @@ header address ul li .phone-number:focus{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.button:hover {
+.section-one .button:hover {
   cursor: pointer;
   background-color: #404bbf;
 }
 
-.button:hover{
+.section-one .button:focus{
+  cursor: pointer;
   background-color: #404bbf;
 }
 
