@@ -49,7 +49,7 @@ header ul {
   padding: 0%;
 }
 
-header nav ul li .nav-list{
+header nav ul li .menu{
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -57,11 +57,11 @@ header nav ul li .nav-list{
   text-decoration: none;
 }
 
-header nav ul li .nav-list:hover{
+header nav ul li .menu:hover{
   color: #404bbf;
 }
 
-header ul li .nav-list:focus{
+header ul li .menu:focus{
   color: #404bbf;
 }
 
