@@ -298,48 +298,41 @@ border: 1px solid #f4f4fd;
   margin: 0px;
 }
 
-.section3 {
-  border: 1px solid #ffffff;
+.section-four {
   position: relative;
-  width: 1128px;
+  width: 1180px;
   height: 1000px;
-  top: 1115px;
+  top: 1868px;
   left: 156px;
+  
 }
 
-.section3h {
+.section-four .section-four-h {
   border: 1px solid #ffffff;
   display: block;
   position: relative;
-  width: 218px;
+  width: 225px;
   height: 40px;
   top: -21px;
   left: 459px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
-.row1 {
-  border: 1px solid #ffffff;
-  position: relative;
-  width: 1128px;
-  height: 420px;
-  top: 40px;
-  left: -1px;
-}
-.row2 {
-  border: 1px solid #ffffff;
-  position: relative;
-  width: 1128px;
-  height: 420px;
-  top: 80px;
-  left: -1px;
-}
 
-.projectcard1 {
+.section-four ul  {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  gap:24px ;
+ 
+}
+.section-four ul li {
   border: 1px solid #e7e9fc;
   position: relative;
   width: 362px;
@@ -348,7 +341,7 @@ border: 1px solid #f4f4fd;
   left: -41px;
 }
 
-.projectcardh1 {
+.section-four ul li .projectcards-h {
   border: 1px solid #ffffff;
   display: block;
   position: relative;
@@ -357,12 +350,13 @@ border: 1px solid #f4f4fd;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing:0.02em ;
   color: #2e2f42;
   text-indent: 12px;
 }
 
-.projectcardp1 {
+.section-four ul li .projectcards-p {
   border: 1px solid #ffffff;
   display: block;
   position: relative;
@@ -371,202 +365,18 @@ border: 1px solid #f4f4fd;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  color: #434455;
-  text-indent: 12px;
-}
-
-.projectcard2 {
-  border: 1px solid #e7e9fc;
-  position: relative;
-  width: 361px;
-  height: 420px;
-  top: -437px;
-  left: 345px;
-}
-
-.projectcardh2 {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  width: 200px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #2e2f42;
-  text-indent: 12px;
-}
-
-.projectcardp2 {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  width: 75px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #434455;
-  text-indent: 12px;
-}
-
-.projectcard3 {
-  border: 1px solid #e7e9fc;
-  position: relative;
-  width: 361px;
-  height: 420px;
-  top: -857px;
-  left: 727px;
-}
-
-.projectcardh3 {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  width: 200px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #2e2f42;
-  text-indent: 12px;
-}
-
-.projectcardp3 {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  width: 200px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #434455;
-  text-indent: 12px;
-}
-
-.projectcard4 {
-  border: 1px solid #e7e9fc;
-  position: relative;
-  width: 361px;
-  height: 420px;
-  top: -19px;
-  left: -42px;
-}
-
-.projectcardh4 {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  width: 200px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #2e2f42;
-  text-indent: 12px;
-}
-
-.projectcardp4 {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  width: 200px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #434455;
-  text-indent: 12px;
-}
-
-.projectcard5 {
-  border: 1px solid #e7e9fc;
-  position: relative;
-  width: 363px;
-  height: 420px;
-  top: -439px;
-  left: 343px;
-}
-
-.projectcardh5 {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  width: 200px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #2e2f42;
-  text-indent: 12px;
-}
-
-.projectcardp5 {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  width: 200px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #434455;
-  text-indent: 12px;
-}
-
-.projectcard6 {
-  border: 1px solid #e7e9fc;
-  position: relative;
-  width: 361px;
-  height: 420px;
-  top: -859px;
-  left: 727px;
-}
-
-.projectcardh6 {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  width: 200px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #2e2f42;
-  text-indent: 12px;
-}
-
-.projectcardp6 {
-  border: 1px solid #ffffff;
-  display: block;
-  position: relative;
-  width: 200px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing:0.02em ;
   color: #434455;
   text-indent: 12px;
 }
 
 footer {
   border: 1px solid #2E2F42;
-  position: relative;
+  position: absolute;
   width: 1440px;
   height: 312px;
-  top: 1220px;
+  top: 2988px;
   background-color: #2e2f42;
 }
 .footerlogo {
