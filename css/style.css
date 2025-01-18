@@ -211,8 +211,8 @@ ul {
   color: #434455;
 }
 
-.section2 {
-  border: 1px solid #f4f4fd;
+.section-three {
+  border: 1px solid red;
   position: absolute;
   display: block;
   width: 1440px;
@@ -221,25 +221,35 @@ ul {
   background-color: #f4f4fd;
 }
 
-.sectionh {
+.section-three .section-three-h {
   border: 1px solid #f4f4fd;
   position: relative;
-  display: block;
-  width: 165px;
+  display: flex;
+  width: 170px;
   height: 40px;
   margin-top: 122px;
   left: 639px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
   background-color: #f4f4fd;
 }
 
-.teamcard1 {
-  border: 1px solid #f4f4fd;
+.section-three .teamcards{
+  display: flex;
+  position: relative;
+  gap:24px ;
+  padding: 0%;
+  margin: 0%;
+}
+
+.section-three .teamcards .teamcards-li{
+border: 1px solid #f4f4fd;
   position: relative;
   width: 266px;
   height: 360px;
@@ -250,14 +260,11 @@ ul {
   padding-bottom: 32px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px #2e2f42;
+
 }
 
-.teamcard1i {
-  width: 264px;
-  height: 260px;
-}
 
-.teamcard1n {
+.section-three .teamcards .teamcards-li .teamcards-h {
   border: 1px solid #ffffff;
   position: relative;
   top: 15px;
@@ -267,14 +274,14 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   margin: 0px;
 }
 
-.teamcard1p {
+.section-three .teamcards .teamcards-li .teamcards-p {
   border: 1px solid #ffffff;
   position: relative;
   top: 25px;
@@ -284,163 +291,8 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #434455;
-  margin: 0px;
-}
-
-.teamcard2 {
-  border: 1px solid #f4f4fd;
-  position: relative;
-  width: 266px;
-  height: 360px;
-  top: -312px;
-  left: 376px;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  padding-bottom: 32px;
-  background-color: #ffffff;
-  box-shadow: 0px 2px 1px #2e2f42;
-}
-
-.teamcard2i {
-  width: 264px;
-  height: 260px;
-}
-
-.teamcard2n {
-  border: 1px solid #ffffff;
-  position: relative;
-  top: 15px;
-  width: 264px;
-  height: 24px;
-  gap: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  text-align: center;
-  color: #2e2f42;
-  margin: 0px;
-}
-
-.teamcard2p {
-  border: 1px solid #ffffff;
-  position: relative;
-  top: 25px;
-  width: 264px;
-  height: 24px;
-  gap: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #434455;
-  margin: 0px;
-}
-
-.teamcard3 {
-  border: 1px solid #f4f4fd;
-  position: relative;
-  width: 266px;
-  height: 360px;
-  top: -672px;
-  left: 685px;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  padding-bottom: 32px;
-  background-color: #ffffff;
-  box-shadow: 0px 2px 1px #2e2f42;
-}
-
-.teamcard3i {
-  width: 264px;
-  height: 260px;
-}
-
-.teamcard3n {
-  border: 1px solid #ffffff;
-  position: relative;
-  top: 15px;
-  width: 264px;
-  height: 24px;
-  gap: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  text-align: center;
-  color: #2e2f42;
-  margin: 0px;
-}
-
-.teamcard3p {
-  border: 1px solid #ffffff;
-  position: relative;
-  top: 25px;
-  width: 264px;
-  height: 24px;
-  gap: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #434455;
-  margin: 0px;
-}
-
-.teamcard4 {
-  border: 1px solid #f4f4fd;
-  position: relative;
-  width: 266px;
-  height: 360px;
-  top: -1033px;
-  left: 995px;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  padding-bottom: 32px;
-  background-color: #ffffff;
-  box-shadow: 0px 2px 1px #2e2f42;
-}
-
-.teamcard4i {
-  width: 264px;
-  height: 260px;
-}
-
-.teamcard4n {
-  border: 1px solid #ffffff;
-  position: relative;
-  top: 15px;
-  width: 264px;
-  height: 24px;
-  gap: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  text-align: center;
-  color: #2e2f42;
-  margin: 0px;
-}
-
-.teamcard4p {
-  border: 1px solid #ffffff;
-  position: relative;
-  top: 25px;
-  width: 264px;
-  height: 24px;
-  gap: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
   margin: 0px;
