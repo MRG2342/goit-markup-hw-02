@@ -42,10 +42,16 @@ ul li .nav-list:hover{
   color: #404bbf;
 }
 
+ul li .nav-list:focus{
+  color: #404bbf;
+}
+
+header .informations{
+font-style: normal;
+}
 
 
 header address ul li .mail-address {
-  border: 1px solid red;
   position: absolute;
   display: flex;
   width: 153px;
@@ -58,7 +64,8 @@ header address ul li .mail-address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
+  text-decoration: none;
+  
 }
 
 header address ul li .mail-address:hover{
@@ -70,7 +77,6 @@ header address ul li .mail-address:focus{
 }
 
 header address ul li .phone-number {
-  border: 1px solid red;
   position: absolute;
   display: flex;
   width: 160px;
@@ -83,7 +89,7 @@ header address ul li .phone-number {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
+  text-decoration: none;
 }
 
 header address ul li .phone-number:hover{
